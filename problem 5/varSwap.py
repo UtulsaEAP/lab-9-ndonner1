@@ -3,7 +3,7 @@
 
 def swap_values(user_val1, user_val2, user_val3, user_val4):   
    #write your code here
-   tuple_2143 = (user_val2 + " "), (user_val1 + " "), (user_val4 + " "), user_val3
+   tuple_2143 = (str(user_val2) + " "), (str(user_val1) + " "), (str(user_val4) + " "), str(user_val3)
    final_string = ''
    for i in tuple_2143:
       final_string = final_string + i
